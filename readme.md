@@ -1,3 +1,5 @@
+## Data Types
+
 - to compile run tsc
 - data type in ts
   - number
@@ -41,3 +43,5 @@ const person = {
 	role: 4,
 };
 ```
+
+## Union
