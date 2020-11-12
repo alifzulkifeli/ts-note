@@ -1,6 +1,4 @@
-function add(n1:number,n2:number) {
-  return n1 + n2
-  if (q) {
-    
-  }
+function combine(n1:number|string,n2:number|string) {
+ //logic here
+  return 
 }

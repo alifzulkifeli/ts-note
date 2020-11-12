@@ -44,4 +44,15 @@ const person = {
 };
 ```
 
-## Union
+## Union type
+
+- two type in for one variable
+
+```ts
+function combine(n1: number | string, n2: number | string) {
+	//logic here
+	return;
+}
+```
+
+## Literal type
