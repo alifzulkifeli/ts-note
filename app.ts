@@ -1,6 +1,5 @@
-type Combinable = number | string;
 
-function combine(n1:Combinable,n2:Combinable, resultConversion:'as-number'|'as-text') {
- //logic here
-  return 
+function add(n1:number,n2:number) {
+  return n1+n2
 }
+let combineValues:(a:number, b:number) => number;

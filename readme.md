@@ -82,3 +82,11 @@ function combine(
 	return;
 }
 ```
+
+# Function
+
+- function is a type
+
+```ts
+let combineValues: (a: number, b: number) => number;
+```
