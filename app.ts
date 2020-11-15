@@ -1,4 +1,6 @@
-function combine(n1:number|string,n2:number|string, resultConversion:'as-number'|'as-text') {
+type Combinable = number | string;
+
+function combine(n1:Combinable,n2:Combinable, resultConversion:'as-number'|'as-text') {
  //logic here
   return 
 }
