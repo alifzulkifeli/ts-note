@@ -104,4 +104,11 @@ addAndHandle(10, 20, (result) => {
 });
 ```
 
-## unknown type
+### unknown type
+
+- unknows cannot be assign to other type
+- unknown can hold any value but more strict
+
+### never type
+
+- function that handle error
