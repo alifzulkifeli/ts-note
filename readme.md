@@ -111,4 +111,6 @@ addAndHandle(10, 20, (result) => {
 
 ### never type
 
-- function that handle error
+- eg
+  - function that handle error
+  - infinite loop
