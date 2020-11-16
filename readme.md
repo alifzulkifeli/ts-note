@@ -68,7 +68,7 @@ function combine(
 }
 ```
 
-### alias type
+## alias type
 
 ```ts
 type Combinable = number | string;
@@ -90,3 +90,18 @@ function combine(
 ```ts
 let combineValues: (a: number, b: number) => number;
 ```
+
+## Function callback
+
+```ts
+function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
+	const result = n1 + n1;
+	cb(result);
+}
+
+addAndHandle(10, 20, (result) => {
+	console.log(result);
+});
+```
+
+## unknown type
